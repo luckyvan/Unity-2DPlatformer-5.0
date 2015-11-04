@@ -1766,6 +1766,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1941829495}
   - 212: {fileID: 1941829496}
+  - 95: {fileID: 1941829497}
   m_Layer: 0
   m_Name: Mr.Bean
   m_TagString: Untagged
@@ -1821,6 +1822,23 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!95 &1941829497
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1941829494}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b3e535cc80a7dfd45983f638ee8e76b8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &2077994397
 GameObject:
   m_ObjectHideFlags: 0
