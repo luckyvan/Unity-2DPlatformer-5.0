@@ -835,6 +835,47 @@ SpriteRenderer:
   m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 08f156bcb508a4c58bb09311fa0a1f62, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &882992581
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 882992582}
+  - 114: {fileID: 882992583}
+  m_Layer: 0
+  m_Name: shootPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &882992582
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 882992581}
+  m_LocalRotation: {x: .00438226527, y: .00434418907, z: .00434418861, w: .999971569}
+  m_LocalPosition: {x: .800000012, y: .239999995, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1941829495}
+  m_RootOrder: 11
+--- !u!114 &882992583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 882992581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28aa5c2d4fb328f409912f605b250d16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rocket: {fileID: 5000000, guid: 8fde8ec1b330d4bbfb4839f4b41cadc0, type: 2}
+  speed: 20
 --- !u!1 &926379309
 GameObject:
   m_ObjectHideFlags: 0
@@ -1826,6 +1867,7 @@ Transform:
   - {fileID: 1315832246}
   - {fileID: 402887942}
   - {fileID: 398224935}
+  - {fileID: 882992582}
   m_Father: {fileID: 0}
   m_RootOrder: 5
 --- !u!212 &1941829496
